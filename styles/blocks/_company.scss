@@ -1,0 +1,17 @@
+.company {
+  &__title, &__description {
+    margin-bottom: 42px;
+  }
+  &__description {
+    font-size: var(--font-size-secondary);
+    line-height: 1.3;
+  }
+  &__video {
+    margin-bottom: 110px;
+  }
+  &__diplomas {
+    margin-bottom: 80px;
+    padding-bottom: 22px;
+    border-bottom: var(--border-conatainer);
+  }
+}

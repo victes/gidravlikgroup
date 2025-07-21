@@ -1,0 +1,45 @@
+.card {
+  &__title {
+    margin-bottom: 35px;
+  }
+
+  &__body {
+    display: flex;
+    gap: 40px;
+
+    @include mobile {
+      flex-direction: column;
+      gap: 30px;
+
+      & iframe {
+        height: 300px;
+      }
+    }
+  }
+
+  &__meta {
+    margin-bottom: 30px;
+  }
+
+  &__content {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    max-width: 750px;
+
+
+    @include desktop {
+      max-width: 650px
+    }
+
+    @include tablet {
+      max-width: 550px
+    }
+
+    @include mobile {
+      font-size: 18px;
+      line-height: 1.5;
+      max-width: none;
+    }
+  }
+}

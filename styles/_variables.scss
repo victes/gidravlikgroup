@@ -1,0 +1,21 @@
+:root {
+  --color-dark: #000000;
+  --color-light: #ffffff;
+  --color-light-gray: #cccccc;
+  --color-red: #ff0000;
+  --color-red-alt: #f1391c;
+  --color-gray: #b2b2b2;
+  --color-gray-alternative: #c1c1c1;
+
+  --border: 1px solid var(--color-red);
+  --border-conatainer: 1px solid var(--color-gray);
+
+  --shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+
+  --font-family-base: 'Geometria', sans-serif;
+  --font-size-base: 16px;
+  --font-size-secondary: 20px;
+
+  --container-width: 1120px;
+  --container-padding-x: 20px;
+}

@@ -1,0 +1,33 @@
+body {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  color: var(--color-dark);
+  background-color: white;
+  line-height: 1;
+}
+
+main {
+  min-height: 50vh;
+}
+
+a,
+button,
+input,
+textarea,
+svg * {
+  transition-duration: var(--transition-duration);
+}
+
+a {
+  @include reset-link
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}

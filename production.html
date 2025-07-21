@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Гидравлик Групп</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="header__inner container">
+    <div class="header__top">
+      <div class="header__logo-wrapper">
+        <a href="./index.html">
+          <img class="header__logo" src="./images/logo.png" alt="Гидравлик Групп" width="235">
+        </a>
+        <button
+         class="header__burger visible-mobile"
+         type="button"
+         onclick="document.querySelector('.header__menu').classList.toggle('is-open')"
+        >
+          <img src="./images/icons/burger.svg" alt="Меню" width="45px">
+        </button>
+      </div>
+
+      <a class="header__button button" href="javascript:void(0)">Заказать ремонт с выездом</a>
+
+      <div class="header__search hidden-mobile">
+        <a href="/search">
+          <img src="./images/icons/search.svg" alt="Поиск" class="header__search-icon" width="24">
+        </a>
+        <a class="header__phone" href="tel:88007759677">8 800 775 96 77</a>
+      </div>
+    </div>
+
+    <nav class="header__menu">
+      <button class="header__menu-button" type="button"
+              onclick="document.querySelector('.header__menu').classList.remove('is-open')"></button>
+      <ul class="header__menu-list">
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="./about.html">Компания</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">Услуги</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">Каталог</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="./job.html">Вакансии</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="./production.html">Производство</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="./stores.html">Магазины</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="./contacts.html">Контакты</a>
+        </li>
+      </ul>
+      <a class="header__menu-phone visible-mobile" href="tel:88007759677">
+        8 800 775 96 77
+      </a>
+    </nav>
+  </div>
+</header>
+<main class="content container">
+
+  <div class="breadcrumb">
+    <ul class="breadcrumb__list">
+      <li class="breadcrumb__item">
+        <a href="./index.html">Главная /</a>
+      </li>
+      <li class="breadcrumb__item">
+        <a href="./production.html">Производство</a>
+      </li>
+    </ul>
+  </div>
+
+  <section class="section">
+    <div class="section__head">
+      <h1 class="section__title">Производство</h1>
+    </div>
+    <div class="section__body">
+      <ul class="cards">
+        <li class="card">
+          <h2 class="card__title">Цех в г. Ивантеевка</h2>
+          <div class="card__body">
+            <div class="card__video">
+                <iframe src="https://vkvideo.ru/video_ext.php?oid=-178866046&id=456239092&hd=2&autoplay=1" width="100%"
+                      height="210" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
+                      frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="card__text">
+              <div class="card__meta">г. Москва</div>
+              <div class="card__content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non hendrerit erat. Praesent luctus tortor eu vehicula tincidunt. Sed vestibulum eu dui sit amet rhoncus. Vestibulum fringilla quis nisi sed scelerisque. Mauris sit amet mi ipsum. Morbi sit amet felis nunc. Maecenas nunc erat, faucibus sed turpis in, commodo tincidunt dolor.
+                Quisque rutrum orci sem, nec suscipit massa ornare facilisis.</div>
+            </div>
+          </div>
+        </li>
+        <li class="card">
+          <h2 class="card__title">АГМ Тракт</h2>
+          <div class="card__body">
+            <div class="card__video">
+              <iframe src="https://vkvideo.ru/video_ext.php?oid=-178866046&id=456239092&hd=2&autoplay=1" width="100%"
+                      height="210" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
+                      frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="card__text">
+              <div class="card__meta">г. Москва</div>
+              <div class="card__content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non hendrerit erat. Praesent luctus tortor eu vehicula tincidunt. Sed vestibulum eu dui sit amet rhoncus. Vestibulum fringilla quis nisi sed scelerisque. Mauris sit amet mi ipsum. Morbi sit amet felis nunc. Maecenas nunc erat, faucibus sed turpis in, commodo tincidunt dolor.
+                Quisque rutrum orci sem, nec suscipit massa ornare facilisis.</div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+</main>
+<footer class="footer">
+  <div class="footer__inner container">
+    <div class="footer__head">
+      <div class="footer__col">
+        <a class="footer__title" href="#">
+          <img alt="logo" src="./images/logo-white.png" width="237px">
+        </a>
+        <ul class="footer__list">
+          <li><a href="/about/vacancy/">Вакансии</a></li>
+          <li><a href="/about/gallery/">Фото и видео</a></li>
+          <li><a href="/about/tekhnicheskaya-informatsiya/">Техническая информация</a></li>
+          <li><a href="/about/faq/">Вопросы и ответы</a></li>
+          <li><a href="/upload/1/Requisites_Gidravlik_Group.pdf" target="_blank">Реквизиты</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <div class="footer__title">услуги</div>
+        <ul class="footer__list">
+          <li><a href="/services/remont-rvd-s-vyezdom/">Ремонт РВД с выездом</a></li>
+          <li><a href="/services/izgotovlenie-rvd/">Изготовление РВД</a></li>
+          <li><a href="/services/tochenie-uplotneniy/">Точение уплотнений</a></li>
+          <li><a href="/services/remont-gidrotsilindrov/">Ремонт гидроцилиндров</a></li>
+          <li><a href="/services/vosstanovlenie-otverstiy/">Восстановление отверстий</a></li>
+          <li><a href="/services/dostavka/">Доставка</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <div class="footer__title">каталог</div>
+        <ul class="footer__list">
+          <li><a href="/catalog/rukava-vysokogo-davleniya/">Рукава высокого давления</a></li>
+          <li><a href="/catalog/fitingi-i-mufty/">Фитинги и муфты</a></li>
+          <li><a href="/catalog/trubnye-soedineniya/">Трубные соединения</a></li>
+          <li><a href="/catalog/gidravlicheskie-trubki/">Гидравлические трубки</a></li>
+          <li><a href="/catalog/manometry-i-mikroshlangi/">Манометры и микрошланги</a></li>
+          <li><a href="/catalog/bystrorazemnye-soedineniya/">Быстроразъемные соединения</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <div class="footer__title phone">
+          <a class="footer__phone" href="tel:88007759677">8 800 775 96 77</a>
+        </div>
+        <div class="footer__email">
+          <a href="mailto:info@gidravlikgroup.ru">Info@GidravlikGroup.ru</a>
+        </div>
+        <ul class="footer__list">
+          <li><a href="/about/proizvodstvo/">Производство</a></li>
+          <li><a href="/services/remont-rvd-s-vyezdom/">Мобильные мастерские</a></li>
+          <li><a href="/about/shops/">Сеть магазинов в Москве</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <a class="director-btn" href="mailto:director@gidravlikgroup.ru">Написать директору</a>
+      <a href="/privacy/">Конфиденциальность</a>
+      <a class="director-btn" href="/policy/">Пользовательское соглашение</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

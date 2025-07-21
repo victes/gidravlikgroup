@@ -1,0 +1,9 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+
+  @include mobile {
+    gap: 60px;
+  }
+}

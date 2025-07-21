@@ -1,0 +1,31 @@
+.services {
+  &__list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    row-gap: 30px;
+    column-gap: 20px;
+
+    @include tablet {
+      grid-template-columns: auto auto;
+      justify-content: space-around;
+    }
+
+    @include mobile {
+      grid-template-columns: 1fr;
+      justify-content: start;
+    }
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+  }
+
+  &__icon {
+    width: 50px;
+    aspect-ratio: 1;
+  }
+}

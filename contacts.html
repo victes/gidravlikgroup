@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Гидравлик Групп</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="header__inner container">
+    <div class="header__top">
+      <div class="header__logo-wrapper">
+        <a href="./index.html">
+          <img class="header__logo" src="./images/logo.png" alt="Гидравлик Групп" width="235">
+        </a>
+        <button
+         class="header__burger visible-mobile"
+         type="button"
+         onclick="document.querySelector('.header__menu').classList.toggle('is-open')"
+        >
+          <img src="./images/icons/burger.svg" alt="Меню" width="45px">
+        </button>
+      </div>
+
+      <a class="header__button button" href="javascript:void(0)">Заказать ремонт с выездом</a>
+
+      <div class="header__search hidden-mobile">
+        <a href="/search">
+          <img src="./images/icons/search.svg" alt="Поиск" class="header__search-icon" width="24">
+        </a>
+        <a class="header__phone" href="tel:88007759677">8 800 775 96 77</a>
+      </div>
+    </div>
+
+    <nav class="header__menu">
+      <button class="header__menu-button" type="button"
+              onclick="document.querySelector('.header__menu').classList.remove('is-open')"></button>
+      <ul class="header__menu-list">
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="./about.html">Компания</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">Услуги</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">Каталог</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="./job.html">Вакансии</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="./production.html">Производство</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="./stores.html">Магазины</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="./contacts.html">Контакты</a>
+        </li>
+      </ul>
+      <a class="header__menu-phone visible-mobile" href="tel:88007759677">
+        8 800 775 96 77
+      </a>
+    </nav>
+  </div>
+</header>
+<main class="content container">
+
+  <div class="breadcrumb">
+    <ul class="breadcrumb__list">
+      <li class="breadcrumb__item">
+        <a href="./index.html">Главная /</a>
+      </li>
+      <li class="breadcrumb__item">
+        <a href="./contacts.html">Контакты</a>
+      </li>
+    </ul>
+  </div>
+
+  <section class="section">
+    <div class="section__head">
+      <h1 class="section__title">Контакты</h1>
+    </div>
+    <div class="section__body contacts">
+      <div class="contacts__left">
+        <div class="contacts__map">
+          <iframe
+           src="https://yandex.com/map-widget/v1/?um=constructor%3A467813d526f75576280e2c64a12f17ca4ed2ecde40f46305c09f7bf05faca23e&amp;source=constructor"
+           width="100%" height="500" frameborder="0"></iframe>
+        </div>
+        <img src="./images/contact_image.png" alt="Гидравлик групп" class="contacts__image hidden-tablet">
+      </div>
+      <div class="contacts__right">
+        <div class="contacts__info info">
+          <ul class="info__list">
+            <li class="info__item">
+              <img src="./images/icons/map-marker.svg" alt="" class="info__icon">
+              <div class="info__text">
+                МКАД, 32-й км,<br/>
+                внешняя сторона, с1,<br/>
+                АГМ ТРАКТ, бокс 22.<br/>
+                <br/>
+                GPS: 55.57275,37.617632
+              </div>
+            </li>
+            <li class="info__item">
+              <img src="./images/icons/time.svg" alt="" class="info__icon">
+              <div class="info__text">
+                8:00 - 20:00 <br/>
+                Ежедневно
+              </div>
+            </li>
+            <li class="info__item">
+              <img src="./images/icons/phone.svg" alt="" class="info__icon">
+              <div class="info__text">
+                <a class="info__phone" href="tel:89104147279">89104147279</a>
+              </div>
+            </li>
+            <li class="info__item">
+              <img src="./images/icons/mail.svg" alt="" class="info__icon">
+              <div class="info__text">
+                <a href="mailto:sm01@GidravlikGroup.ru">sm01@GidravlikGroup.ru</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <img src="./images/contact_image.png" alt="Гидравлик групп" class="contacts__image visible-tablet">
+        <div class="contacts__order">
+          <div class="contacts__text">
+            <span>Ремонт РВД</span>
+            <span>с выездом</span>
+            <span>Круглосуточно</span>
+            <span>24/7/365</span>
+            <span>Среднее время прибытия после оформления заказа </span>
+            <span>– 54 минуты</span>
+            <a class="contacts__phone" href="tel:89037249823">89037249823</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section__head">
+      <h1 class="section__title">Магазины и мастерские</h1>
+    </div>
+    <div class="section__body locations">
+      <ul class="locations__list">
+        <li>
+          <a class="locations__item" href="./store.html">
+            <img src="images/icons/map-marker.svg" alt="" class="locations__icon">
+            <div class="locations__text">МКАД 32-й км <br/> 8:00 - 20:00</div>
+          </a>
+        </li>
+        <li>
+          <a class="locations__item" href="./store.html">
+            <img src="images/icons/map-marker.svg" alt="" class="locations__icon">
+            <div class="locations__text">МКАД 56 км <br/> 8:00 - 20:00</div>
+          </a>
+        </li>
+        <li>
+          <a class="locations__item" href="./store.html">
+            <img src="images/icons/map-marker.svg" alt="" class="locations__icon">
+            <div class="locations__text">МКАД 91 км <br/> 8:00 - 20:00</div>
+          </a>
+        </li>
+        <li>
+          <a class="locations__item" href="./store.html">
+            <img src="images/icons/map-marker.svg" alt="" class="locations__icon">
+            <div class="locations__text">МКАД 01 км <br/> 8:00 - 20:00</div>
+          </a>
+        </li>
+        <li>
+          <a class="locations__item" href="./store.html">
+            <img src="images/icons/map-marker.svg" alt="" class="locations__icon">
+            <div class="locations__text">Румянцево <br/> 8:00 - 20:00</div>
+          </a>
+        </li>
+        <li>
+          <a class="locations__item" href="./store.html">
+            <img src="images/icons/map-marker.svg" alt="" class="locations__icon">
+            <div class="locations__text">Химки <br/> 8:00 - 20:00</div>
+          </a>
+        </li>
+        <li>
+          <a class="locations__item" href="./store.html">
+            <img src="images/icons/map-marker.svg" alt="" class="locations__icon">
+            <div class="locations__text">Мытищи   <br/> 8:00 - 20:00</div>
+          </a>
+        </li>
+        <li>
+          <a class="locations__item" href="./store.html">
+            <img src="images/icons/map-marker.svg" alt="" class="locations__icon">
+            <div class="locations__text">Люберцы <br/> 8:00 - 20:00</div>
+          </a>
+        </li>
+        <li>
+          <a class="locations__item" href="./store.html">
+            <img src="images/icons/map-marker.svg" alt="" class="locations__icon">
+            <div class="locations__text">Видное <br/> 8:00 - 20:00</div>
+          </a>
+        </li>
+        <li>
+          <a class="locations__item" href="./store.html">
+            <img src="images/icons/map-marker.svg" alt="" class="locations__icon">
+            <div class="locations__text">Скоро <br> открытие</div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+<footer class="footer">
+  <div class="footer__inner container">
+    <div class="footer__head">
+      <div class="footer__col">
+        <a class="footer__title" href="#">
+          <img alt="logo" src="./images/logo-white.png" width="237px">
+        </a>
+        <ul class="footer__list">
+          <li><a href="/about/vacancy/">Вакансии</a></li>
+          <li><a href="/about/gallery/">Фото и видео</a></li>
+          <li><a href="/about/tekhnicheskaya-informatsiya/">Техническая информация</a></li>
+          <li><a href="/about/faq/">Вопросы и ответы</a></li>
+          <li><a href="/upload/1/Requisites_Gidravlik_Group.pdf" target="_blank">Реквизиты</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <div class="footer__title">услуги</div>
+        <ul class="footer__list">
+          <li><a href="/services/remont-rvd-s-vyezdom/">Ремонт РВД с выездом</a></li>
+          <li><a href="/services/izgotovlenie-rvd/">Изготовление РВД</a></li>
+          <li><a href="/services/tochenie-uplotneniy/">Точение уплотнений</a></li>
+          <li><a href="/services/remont-gidrotsilindrov/">Ремонт гидроцилиндров</a></li>
+          <li><a href="/services/vosstanovlenie-otverstiy/">Восстановление отверстий</a></li>
+          <li><a href="/services/dostavka/">Доставка</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <div class="footer__title">каталог</div>
+        <ul class="footer__list">
+          <li><a href="/catalog/rukava-vysokogo-davleniya/">Рукава высокого давления</a></li>
+          <li><a href="/catalog/fitingi-i-mufty/">Фитинги и муфты</a></li>
+          <li><a href="/catalog/trubnye-soedineniya/">Трубные соединения</a></li>
+          <li><a href="/catalog/gidravlicheskie-trubki/">Гидравлические трубки</a></li>
+          <li><a href="/catalog/manometry-i-mikroshlangi/">Манометры и микрошланги</a></li>
+          <li><a href="/catalog/bystrorazemnye-soedineniya/">Быстроразъемные соединения</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <div class="footer__title phone">
+          <a class="footer__phone" href="tel:88007759677">8 800 775 96 77</a>
+        </div>
+        <div class="footer__email">
+          <a href="mailto:info@gidravlikgroup.ru">Info@GidravlikGroup.ru</a>
+        </div>
+        <ul class="footer__list">
+          <li><a href="/about/proizvodstvo/">Производство</a></li>
+          <li><a href="/services/remont-rvd-s-vyezdom/">Мобильные мастерские</a></li>
+          <li><a href="/about/shops/">Сеть магазинов в Москве</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <a class="director-btn" href="mailto:director@gidravlikgroup.ru">Написать директору</a>
+      <a href="/privacy/">Конфиденциальность</a>
+      <a class="director-btn" href="/policy/">Пользовательское соглашение</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

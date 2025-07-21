@@ -1,0 +1,19 @@
+@import "normalize", "fonts", "media", "variables", "utils", "mixins", "globals";
+
+@import
+  'blocks/section',
+  'blocks/header',
+  'blocks/footer',
+  'blocks/breadcrumb',
+  'blocks/cards',
+  'blocks/card',
+  'blocks/sidebar',
+  'blocks/page',
+  'blocks/info',
+  'blocks/hero',
+  'blocks/statistic',
+  'blocks/services',
+  'blocks/locations',
+  'blocks/store',
+  'blocks/contacts',
+  'blocks/company';

@@ -1,0 +1,37 @@
+.info {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+
+    &:first-child {
+      @include mobile-above {
+        align-items: start;
+      }
+    }
+  }
+  &__icon {
+    width: 42px;
+    aspect-ratio: 1;
+
+    @include desktop {
+      width: 36px;
+    }
+  }
+  &__text {
+    font-size: 20px;
+    line-height: 1.2;
+
+    @include desktop {
+      font-size: 16px;
+    }
+  }
+  &__phone {
+    text-decoration: underline;
+  }
+}

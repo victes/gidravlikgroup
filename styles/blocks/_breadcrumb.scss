@@ -1,0 +1,9 @@
+.breadcrumb {
+  margin-block: 42px 20px;
+  color: var(--color-gray);
+
+  &__list {
+    display: flex;
+    gap: 5px;
+  }
+}
