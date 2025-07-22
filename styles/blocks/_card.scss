@@ -1,4 +1,8 @@
 .card {
+  &:not(:last-child) {
+    padding-bottom: 50px;
+    border-bottom: var(--border-conatainer);
+  }
   &__title {
     margin-bottom: 35px;
   }
