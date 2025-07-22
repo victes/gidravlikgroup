@@ -86,9 +86,9 @@
         </div>
         <div class="section__body page">
             <div class="sidebar">
-                <ul class="sidebar__list">
+                <ul class="sidebar__list" id="sidebarList">
                     <li class="sidebar__item active">
-                        <a href="./about.html">О компании</a>
+                        <a href="./about.html" onclick="event.preventDefault(); document.getElementById('sidebarList').classList.toggle('open')">О компании</a>
                     </li>
                     <li class="sidebar__item">
                         <a href="./about.html">Новости</a>
@@ -131,7 +131,7 @@
                             allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
                             frameborder="0" allowfullscreen></iframe>
                 </div>
-                <div class="company__statistic statistic">
+                <div class="company__statistic statistic statistic_small">
                     <ul class="statistic__list">
                         <li class="statistic__item">
                             <span class="statistic__number">17</span>

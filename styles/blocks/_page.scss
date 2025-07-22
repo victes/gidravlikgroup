@@ -1,4 +1,9 @@
 .page {
   display: flex;
   gap: 90px;
+
+  @include tablet {
+    flex-direction: column;
+    gap: 40px;
+  }
 }

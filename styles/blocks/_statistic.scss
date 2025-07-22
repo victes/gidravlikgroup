@@ -3,6 +3,34 @@
   justify-content: center;
   margin-bottom: 60px;
 
+  &_small {
+    & .statistic__number {
+      font-size: 60px;
+    }
+    & .statistic__text {
+      font-size: 20px;
+    }
+    & .statistic__list {
+      grid-column-gap: clamp(30px, 2vw, 80px);
+      @include desktop {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
+      }
+    }
+    & .statistic__item {
+      @include desktop {
+        &:nth-child(2) {
+          grid-column-start: 1;
+          grid-column-end: 3;
+          grid-row-start: 2;
+          grid-row-end: 3;
+        }
+      }
+    }
+  }
+
   &__list {
     display: inline-grid;
     grid-template-columns: repeat(3, max-content);
