@@ -1069,6 +1069,9 @@ h2 {
   gap: 4px;
 }
 .faq__answer {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
   display: none;
   padding: 10px;
   background-color: #f9f9f9;
