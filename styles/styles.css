@@ -389,6 +389,11 @@ h2 {
     gap: 40px;
   }
 }
+@media (max-width: 480px) {
+  .header__top {
+    gap: 20px;
+  }
+}
 @media (max-width: 923px) {
   .header__logo {
     width: 180px;

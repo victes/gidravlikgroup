@@ -28,6 +28,9 @@
       align-items: start;
       gap: 40px;
     }
+    @include mobile-s {
+      gap: 20px;
+    }
   }
 
   &__logo {
