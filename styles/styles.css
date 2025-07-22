@@ -357,6 +357,7 @@ h2 {
 }
 
 .header {
+  z-index: 1000;
   padding-top: 30px;
   position: sticky;
   top: 0;
