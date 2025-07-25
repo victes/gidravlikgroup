@@ -425,6 +425,7 @@ h2 {
 }
 @media (max-width: 640px) {
   .header__button {
+    line-height: 1.5;
     max-width: 600px;
     width: 100%;
     margin: auto;
@@ -504,11 +505,6 @@ h2 {
   margin-inline: auto 22px;
   margin-top: 20px;
   padding: 20px;
-}
-@media (max-width: 640px) {
-  .header__menu-button {
-    line-height: 1.5;
-  }
 }
 .header__menu-button::before, .header__menu-button::after {
   content: "";

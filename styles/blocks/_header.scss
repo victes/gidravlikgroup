@@ -62,6 +62,7 @@
     }
 
     @include mobile {
+      line-height: 1.5;
       max-width: 600px;
       width: 100%;
       margin: auto;
@@ -140,10 +141,6 @@
       margin-inline: auto 22px;
       margin-top: 20px;
       padding: 20px;
-
-      @include mobile {
-        line-height: 1.5;
-      }
 
       &::before,
       &::after {
