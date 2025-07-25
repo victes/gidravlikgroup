@@ -1,0 +1,36 @@
+.table {
+  width: 100%;
+  overflow-x: auto;
+
+  &__element {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  &__row {
+    border-bottom: var(--border-conatainer);
+  }
+
+  &__cell {
+    font-size: 10px;
+    padding-block: 18px;
+    padding-inline: 10px;
+    text-align: left;
+    vertical-align: middle;
+
+    &:not(:nth-child(1), :nth-child(2)) {
+      text-align: center;
+    }
+
+    &--header {
+      font-weight: 700;
+      white-space: nowrap;
+    }
+  }
+
+  &__body {
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}

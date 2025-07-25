@@ -75,79 +75,81 @@
                 <a href="./index.html">Главная /</a>
             </li>
             <li class="breadcrumb__item">
-                <a href="./production.html">О компании</a>
+                <a href="./production.html">Услуги</a>
             </li>
         </ul>
     </div>
 
     <section class="section">
         <div class="section__head">
-            <h1 class="section__title">О компании</h1>
+            <h1 class="section__title">Услуги</h1>
         </div>
         <div class="section__body page">
-            <div class="sidebar">
+            <div class="sidebar sidebar_catalog">
                 <ul class="sidebar__list" id="sidebarList">
-                    <li class="sidebar__item active">
-                        <a href="./about.html" onclick="event.preventDefault(); document.getElementById('sidebarList').classList.toggle('open')">О компании</a>
+                    <li class="sidebar__item visible-tablet active">
+                        <a href="#"
+                           onclick="event.preventDefault(); document.getElementById('sidebarList').classList.toggle('open')">Фильтры</a>
                     </li>
                     <li class="sidebar__item">
-                        <a href="./news.html">Новости</a>
+                        <a href="./about.html">
+                            <img src="./images/icons/services/1.svg" alt="">
+                            <span>Ремонт РВД с выездом</span>
+                        </a>
                     </li>
                     <li class="sidebar__item">
-                        <a href="./projects.html">Наши проекты</a>
+                        <a href="./about.html">
+                            <img src="./images/icons/services/2.svg" alt="">
+                            <span>Точение уплотнений</span>
+                        </a>
                     </li>
                     <li class="sidebar__item">
-                        <a href="./about.html">Презентация PDF</a>
+                        <a href="./about.html">
+                            <img src="./images/icons/services/3.svg" alt="">
+                            <span>Тормозные шланги</span>
+                        </a>
                     </li>
                     <li class="sidebar__item">
-                        <a href="./about.html">Вопросы и ответы</a>
+                        <a href="./about.html">
+                            <img src="./images/icons/services/4.svg" alt="">
+                            <span>Изготовление РВД</span>
+                        </a>
                     </li>
                     <li class="sidebar__item">
-                        <a href="./about.html">Техническая информация</a>
+                        <a href="./about.html">
+                            <img src="./images/icons/services/5.svg" alt="">
+                            <span>Изготовление гидроцилиндров</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="./about.html">
+                            <img src="./images/icons/services/6.svg" alt="">
+                            <span>Медные трубки</span>
+                        </a>
                     </li>
                 </ul>
             </div>
-            <div class="page__content company">
-                <h2 class="company__title">ГИДРАВЛИК ГРУПП - ЛИДЕР БЫСТРОГО ОБСЛУЖИВАНИЯ</h2>
-                <div class="company__description">
-                    <p>Текст о компании, миссия, преимущества и сильные стороны.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non hendrerit erat. Praesent
-                        luctus tortor eu vehicula tincidunt. Sed vestibulum eu dui sit amet rhoncus. Vestibulum
-                        fringilla quis nisi sed scelerisque. Mauris sit amet mi ipsum. Morbi sit amet felis nunc.
-                        Maecenas nunc erat, faucibus sed turpis in, commodo tincidunt dolor.
-                        Quisque rutrum orci sem, nec suscipit massa ornare facilisis.
-                    </p>
-                    <p>
-                        Sed sollicitudin massa sit amet ultrices dignissim. Vivamus ultrices, augue sit amet porttitor
-                        pretium, lectus nibh aliquam velit, sed sodales nulla dui quis sapien. Duis sed lectus sed urna
-                        tincidunt tristique. Vivamus gravida tellus eget elit convallis consequat. Morbi sollicitudin
-                        vestibulum congue. Vestibulum eget arcu est.
-                    </p>
-                </div>
-                <div class="company__video">
-                    <iframe src="https://vkvideo.ru/video_ext.php?oid=-178866046&id=456239092&hd=2&autoplay=1"
-                            width="100%"
-                            height="440"
-                            allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
+            <div class="page__content">
+                <div class="page__content service">
+                    <h2 class="service__title">РЕМОНТ РВД С ВЫЕЗДОМ</h2>
+                    <iframe class="service__video" src="https://vkvideo.ru/video_ext.php?oid=-178866046&id=456239092&hd=2&autoplay=1" width="100%"
+                            height="442" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
                             frameborder="0" allowfullscreen></iframe>
+                    <div class="service__text">
+                        <p>
+                            Собственный парк из семнадцати автомастерских на базе Ford Transit, полностью укомплектованных под решение задач любой сложности, позволяет вдвое сокращать время простоя строительной техники.
+                        </p>
+                        <p>
+                            Мобильные мастерские равномерно рассредоточены по всему городу, что позволяет нам оперативно прибывать на место поломки 24 часа в сутки, 7 дней в неделю. Квалифицированные мастера Гидравлик Групп имеют огромный опыт в решении любых задач в области ремонта гидравлической спецтехники.
+                        </p>
+                        <p>
+                            Для вызова мобильной мастерской необходимо позвонить по номеру 8 495 256-06-02 и сообщить оператору адрес объекта.
+                        </p>
+                    </div>
+                    <a href="#" class="service__button button">
+                        Задать вопрос
+                    </a>
                 </div>
-                <div class="company__statistic statistic statistic_small">
-                    <ul class="statistic__list">
-                        <li class="statistic__item">
-                            <span class="statistic__number">17</span>
-                            <span class="statistic__text">Мобильных <br/> Мастерских</span>
-                        </li>
-                        <li class="statistic__item">
-                            <span class="statistic__number">150+</span>
-                            <span class="statistic__text">Опытных <br/> сотрудников</span>
-                        </li>
-                        <li class="statistic__item">
-                            <span class="statistic__number">13</span>
-                            <span class="statistic__text">лет на <br/> рынке</span>
-                        </li>
-                    </ul>
-                </div>
-                <h2 class="company__diplomas">ДИПЛОМЫ И СЕРТИФИКАТЫ</h2>
             </div>
         </div>
     </section>

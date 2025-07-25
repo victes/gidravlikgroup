@@ -1,0 +1,17 @@
+.service {
+  &__title, &__text{
+    margin-bottom: 40px;
+  }
+  &__video {
+    margin-bottom: 80px;
+  }
+  &__text {
+    font-size: var(--font-size-secondary);
+    line-height: 1.3;
+  }
+  &__button {
+    min-width: 294px;
+    float: right;
+    justify-content: center;
+  }
+}

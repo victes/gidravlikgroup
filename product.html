@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Гидравлик Групп</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+<header class="header">
+    <div class="header__inner container">
+        <div class="header__top">
+            <div class="header__logo-wrapper">
+                <a href="./index.html">
+                    <img class="header__logo" src="./images/logo.png" alt="Гидравлик Групп" width="235">
+                </a>
+                <button
+                 class="header__burger visible-mobile"
+                 type="button"
+                 onclick="document.querySelector('.header__menu').classList.toggle('is-open')"
+                >
+                    <img src="./images/icons/burger.svg" alt="Меню" width="45px">
+                </button>
+            </div>
+
+            <a class="header__button button" href="javascript:void(0)">Заказать ремонт с выездом</a>
+
+            <div class="header__search hidden-mobile">
+                <a href="/search">
+                    <img src="./images/icons/search.svg" alt="Поиск" class="header__search-icon" width="24">
+                </a>
+                <a class="header__phone" href="tel:88007759677">8 800 775 96 77</a>
+            </div>
+        </div>
+
+        <nav class="header__menu">
+            <button class="header__menu-button visible-mobile" type="button"
+                    onclick="document.querySelector('.header__menu').classList.remove('is-open')"></button>
+            <ul class="header__menu-list">
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="./about.html">Компания</a>
+                </li>
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="#">Услуги</a>
+                </li>
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="#">Каталог</a>
+                </li>
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="./job.html">Вакансии</a>
+                </li>
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="./production.html">Производство</a>
+                </li>
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="./stores.html">Магазины</a>
+                </li>
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="./contacts.html">Контакты</a>
+                </li>
+            </ul>
+            <a class="header__menu-phone visible-mobile" href="tel:88007759677">
+                8 800 775 96 77
+            </a>
+        </nav>
+    </div>
+</header>
+<main class="content container">
+
+    <div class="breadcrumb">
+        <ul class="breadcrumb__list">
+            <li class="breadcrumb__item">
+                <a href="./index.html">Главная /</a>
+            </li>
+            <li class="breadcrumb__item">
+                <a href="./production.html">Каталог /</a>
+            </li>
+            <li class="breadcrumb__item">
+                <a href="./production.html">Быстроразъемные соединения /</a>
+            </li>
+            <li class="breadcrumb__item">
+                <a href="./production.html">БРС ISO A BSP</a>
+            </li>
+        </ul>
+    </div>
+
+    <section class="section">
+        <div class="section__head">
+            <h1 class="section__title">Каталог</h1>
+        </div>
+        <div class="section__body page">
+            <div class="sidebar sidebar_catalog">
+                <ul class="sidebar__list" id="sidebarList">
+                    <li class="sidebar__item visible-tablet active">
+                        <a href="#"
+                           onclick="event.preventDefault(); document.getElementById('sidebarList').classList.toggle('open')">Фильтры</a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="./about.html">
+                            <img src="./images/icons/services/1.svg" alt="">
+                            <span>Ремонт РВД с выездом</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="./about.html">
+                            <img src="./images/icons/services/2.svg" alt="">
+                            <span>Точение уплотнений</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="./about.html">
+                            <img src="./images/icons/services/3.svg" alt="">
+                            <span>Тормозные шланги</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="./about.html">
+                            <img src="./images/icons/services/4.svg" alt="">
+                            <span>Изготовление РВД</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="./about.html">
+                            <img src="./images/icons/services/5.svg" alt="">
+                            <span>Изготовление гидроцилиндров</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="./about.html">
+                            <img src="./images/icons/services/6.svg" alt="">
+                            <span>Медные трубки</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="page__content">
+                <div class="page__content product">
+                    <div class="product__top">
+                        <div class="product__slider">
+                            <img src="./images/product.png" alt="Product" width="272">
+                        </div>
+                        <div class="product__content">
+                            <h2 class="product__title">БРС ISO A BSP</h2>
+                            <div class="product__text">
+                                <p>
+                                    Быстроразъемные соединения ISO A
+                                    являются самым распространенным видом БРС.</p>
+                                <p>
+                                    Конструкция соединений проста. БРС ISO A
+                                    представляют собой соединения с клапанами конической формы и состоят из двух частей: ниппеля и розетки. Соединение частей происходит за счёт шарикового затвора.
+                                </p>
+                                <p>
+                                    Быстроразъемные соединения POWERMASTER типа ISO A совместимы с аналогичными БРС других производителей.
+                                </p>
+                            </div>
+                            <a href="#" class="product__button button">Уточнить наличие и цену</a>
+                        </div>
+                    </div>
+                    <div class="product__table">
+                        <h2>Характеристики</h2>
+                        <div class="table">
+                            <table class="table__element">
+                                <thead class="table__head">
+                                <tr class="table__row">
+                                    <th class="table__cell table__cell--header">Артикул</th>
+                                    <th class="table__cell table__cell--header">Наименование</th>
+                                    <th class="table__cell table__cell--header">A +0,13 −0,00</th>
+                                    <th class="table__cell table__cell--header">Размер по ISO</th>
+                                    <th class="table__cell table__cell--header">Ls</th>
+                                    <th class="table__cell table__cell--header">Lp</th>
+                                    <th class="table__cell table__cell--header">D</th>
+                                    <th class="table__cell table__cell--header">Hs</th>
+                                    <th class="table__cell table__cell--header">Hp</th>
+                                    <th class="table__cell table__cell--header">Цена</th>
+                                </tr>
+                                </thead>
+                                <tbody class="table__body">
+                                <tr class="table__row">
+                                    <td class="table__cell">PM-FC7510</td>
+                                    <td class="table__cell">БРС ISO A BSP 1-D1 Розетка</td>
+                                    <td class="table__cell">1″</td>
+                                    <td class="table__cell">1″</td>
+                                    <td class="table__cell">97</td>
+                                    <td class="table__cell">-</td>
+                                    <td class="table__cell">54</td>
+                                    <td class="table__cell">S41</td>
+                                    <td class="table__cell">-</td>
+                                    <td class="table__cell">-</td>
+                                </tr>
+
+                                <tr class="table__row">
+                                    <td class="table__cell">PM-FC75112</td>
+                                    <td class="table__cell">БРС ISO A BSP 1.1/2 - D1.1/2 Розетка</td>
+                                    <td class="table__cell">1.1/2″</td>
+                                    <td class="table__cell">1.1/2″</td>
+                                    <td class="table__cell">133,5</td>
+                                    <td class="table__cell">-</td>
+                                    <td class="table__cell">84</td>
+                                    <td class="table__cell">S60</td>
+                                    <td class="table__cell">-</td>
+                                    <td class="table__cell">-</td>
+                                </tr>
+
+                                <tr class="table__row">
+                                    <td class="table__cell">PM-FC7510</td>
+                                    <td class="table__cell">БРС ISO A BSP 1-D1 Розетка</td>
+                                    <td class="table__cell">1″</td>
+                                    <td class="table__cell">1″</td>
+                                    <td class="table__cell">97</td>
+                                    <td class="table__cell">-</td>
+                                    <td class="table__cell">54</td>
+                                    <td class="table__cell">S41</td>
+                                    <td class="table__cell">-</td>
+                                    <td class="table__cell">-</td>
+                                </tr>
+
+                                <tr class="table__row">
+                                    <td class="table__cell">PM-FC75112</td>
+                                    <td class="table__cell">БРС ISO A BSP 1.1/2 - D1.1/2 Розетка</td>
+                                    <td class="table__cell">1.1/2″</td>
+                                    <td class="table__cell">1.1/2″</td>
+                                    <td class="table__cell">133,5</td>
+                                    <td class="table__cell">-</td>
+                                    <td class="table__cell">84</td>
+                                    <td class="table__cell">S60</td>
+                                    <td class="table__cell">-</td>
+                                    <td class="table__cell">-</td>
+                                </tr>
+
+                                <tr class="table__row">
+                                    <td class="table__cell">PM-FC7510</td>
+                                    <td class="table__cell">БРС ISO A BSP 1-D1 Розетка</td>
+                                    <td class="table__cell">1″</td>
+                                    <td class="table__cell">1″</td>
+                                    <td class="table__cell">97</td>
+                                    <td class="table__cell">-</td>
+                                    <td class="table__cell">54</td>
+                                    <td class="table__cell">S41</td>
+                                    <td class="table__cell">-</td>
+                                    <td class="table__cell">-</td>
+                                </tr>
+
+                                <tr class="table__row">
+                                    <td class="table__cell">PM-FC75112</td>
+                                    <td class="table__cell">БРС ISO A BSP 1.1/2 - D1.1/2 Розетка</td>
+                                    <td class="table__cell">1.1/2″</td>
+                                    <td class="table__cell">1.1/2″</td>
+                                    <td class="table__cell">133,5</td>
+                                    <td class="table__cell">-</td>
+                                    <td class="table__cell">84</td>
+                                    <td class="table__cell">S60</td>
+                                    <td class="table__cell">-</td>
+                                    <td class="table__cell">-</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</main>
+<footer class="footer">
+    <div class="footer__inner container">
+        <div class="footer__head">
+            <div class="footer__col">
+                <a class="footer__title" href="#">
+                    <img alt="logo" src="./images/logo-white.png" width="237px">
+                </a>
+                <ul class="footer__list">
+                    <li><a href="/about/vacancy/">Вакансии</a></li>
+                    <li><a href="/about/gallery/">Фото и видео</a></li>
+                    <li><a href="/about/tekhnicheskaya-informatsiya/">Техническая информация</a></li>
+                    <li><a href="/about/faq/">Вопросы и ответы</a></li>
+                    <li><a href="/upload/1/Requisites_Gidravlik_Group.pdf" target="_blank">Реквизиты</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <div class="footer__title">услуги</div>
+                <ul class="footer__list">
+                    <li><a href="/services/remont-rvd-s-vyezdom/">Ремонт РВД с выездом</a></li>
+                    <li><a href="/services/izgotovlenie-rvd/">Изготовление РВД</a></li>
+                    <li><a href="/services/tochenie-uplotneniy/">Точение уплотнений</a></li>
+                    <li><a href="/services/remont-gidrotsilindrov/">Ремонт гидроцилиндров</a></li>
+                    <li><a href="/services/vosstanovlenie-otverstiy/">Восстановление отверстий</a></li>
+                    <li><a href="/services/dostavka/">Доставка</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <div class="footer__title">каталог</div>
+                <ul class="footer__list">
+                    <li><a href="/catalog/rukava-vysokogo-davleniya/">Рукава высокого давления</a></li>
+                    <li><a href="/catalog/fitingi-i-mufty/">Фитинги и муфты</a></li>
+                    <li><a href="/catalog/trubnye-soedineniya/">Трубные соединения</a></li>
+                    <li><a href="/catalog/gidravlicheskie-trubki/">Гидравлические трубки</a></li>
+                    <li><a href="/catalog/manometry-i-mikroshlangi/">Манометры и микрошланги</a></li>
+                    <li><a href="/catalog/bystrorazemnye-soedineniya/">Быстроразъемные соединения</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <div class="footer__title phone">
+                    <a class="footer__phone" href="tel:88007759677">8 800 775 96 77</a>
+                </div>
+                <div class="footer__email">
+                    <a href="mailto:info@gidravlikgroup.ru">Info@GidravlikGroup.ru</a>
+                </div>
+                <ul class="footer__list">
+                    <li><a href="/about/proizvodstvo/">Производство</a></li>
+                    <li><a href="/services/remont-rvd-s-vyezdom/">Мобильные мастерские</a></li>
+                    <li><a href="/about/shops/">Сеть магазинов в Москве</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <a class="director-btn" href="mailto:director@gidravlikgroup.ru">Написать директору</a>
+            <a href="/privacy/">Конфиденциальность</a>
+            <a class="director-btn" href="/policy/">Пользовательское соглашение</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
